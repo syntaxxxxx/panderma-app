@@ -46,6 +46,16 @@ dependencies {
     implementation rootProject.ext.architectureComponents.navigationUi
     implementation rootProject.ext.architectureComponents.navigationFragment
 
+    implementation rootProject.ext.misc.okhttp
+    implementation rootProject.ext.misc.loggingInterceptor
+    implementation rootProject.ext.misc.retrofit
+    implementation rootProject.ext.misc.converterMoshi
+    implementation rootProject.ext.misc.moshi
+    implementation rootProject.ext.misc.moshiKotlin
+
+    implementation rootProject.ext.misc.coroutinesCore
+    implementation rootProject.ext.misc.coroutinesAndroid
+
     implementation rootProject.ext.misc.koinCore
     implementation rootProject.ext.misc.koinAndroid
     implementation rootProject.ext.misc.koinAndroidScope
