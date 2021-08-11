@@ -28,6 +28,12 @@ ext {
     ]
 
     misc = [
+            "okhttp"                    : "com.squareup.okhttp3:okhttp:3.12.5",
+            "loggingInterceptor"        : "com.squareup.okhttp3:logging-interceptor:3.12.5",
+            "retrofit"                  : "com.squareup.retrofit2:retrofit:2.6.0",
+            "converterMoshi"            : "com.squareup.retrofit2:converter-moshi:2.5.0",
+            "moshi"                     : "com.squareup.moshi:moshi:1.8.0",
+            "moshiKotlin"               : "com.squareup.moshi:moshi-kotlin:1.8.0",
             "coroutinesCore"            : "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.3",
             "coroutinesAndroid"         : "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.3",
             "koinCore"                  : "io.insert-koin:koin-core:2.2.3",
