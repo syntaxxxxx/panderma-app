@@ -9,7 +9,8 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/drawable/ic_post_background.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/drawable/ic_post_foreground.xml" value="0.28177083333333336" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2515625" />
+        <entry key="app/src/main/res/
+                    /activity_login.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/fragment_account.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/fragment_donor.xml" value="0.12917933130699089" />
@@ -33,6 +34,7 @@
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+ feature/layout-tidak-ada-internet
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
