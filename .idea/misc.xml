@@ -12,17 +12,12 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/fragment_account.xml" value="0.265625" />
-<<<<<<< Updated upstream
         <entry key="app/src/main/res/layout/fragment_donor.xml" value="0.12917933130699089" />
         <entry key="app/src/main/res/layout/fragment_homepage.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/fragment_post.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/fragment_post_donor.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.1234375" />
         <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.12917933130699089" />
-=======
-        <entry key="app/src/main/res/layout/fragment_homepage.xml" value="0.2515625" />
-        <entry key="app/src/main/res/layout/fragment_post.xml" value="0.265625" />
->>>>>>> Stashed changes
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.265625" />
       </map>
     </option>
