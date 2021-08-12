@@ -18,6 +18,10 @@
     <string name="kata_sandi">Kata Sandi</string>
     <string name="masuk">Masuk</string>
     <string name="tidak_punya_akun">Tidak Punya Akun?</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun?</string>
     <string name="daftar">Daftar</string>
+    <string name="nama">Nama</string>
+    <string name="ulangi_kata_sandi">Ulangi Kata Sandi</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
 
 </resources>
