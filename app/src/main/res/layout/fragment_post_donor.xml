@@ -46,7 +46,6 @@
                 android:id="@+id/edtJudulPost"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/judul_post"
                 android:inputType="text"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"/>
