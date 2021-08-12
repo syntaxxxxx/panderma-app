@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/framePostTawarkanDonor"
-    tools:context=".post.PostFragment">
+    tools:context=".posttawarkandonor.PostFragment">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -115,7 +115,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#FA7979"
-                android:text="@string/upload_gambar"
+                android:text="@string/post"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
                 android:layout_marginBottom="100dp"/>
