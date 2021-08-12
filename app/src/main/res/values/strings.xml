@@ -2,4 +2,17 @@
     <string name="app_name">Panderma</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upload_gambar">Upload Gambar</string>
+    <string name="judul_post">Judul Post</string>
+    <string name="deadline_butuh_donor">Deadline Butuh Donor</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="nol">0</string>
+    <string name="jumlah_pendonor_yang_dibutuhkan">Jumlah Pendonor yang dibutuhkan</string>
+    <string name="nomor_hp">No HP (harus ada WA)</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="pilih_lokasi">Pilih Lokasi</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="post">Post</string>
+
 </resources>
