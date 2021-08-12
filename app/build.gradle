@@ -15,6 +15,10 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "BASE_URL", movieApiUrl)
+        buildConfigField("String", "API_KEY", movieApiKey)
+        buildConfigField("String", "IMAGE_URL", movieImageUrl)
     }
 
     buildTypes {
@@ -41,6 +45,7 @@ dependencies {
     implementation rootProject.ext.main.appCompat
     implementation rootProject.ext.main.googleMaterial
     implementation rootProject.ext.main.constraintLayout
+    implementation rootProject.ext.architectureComponents.lifecycleKtx
     implementation rootProject.ext.architectureComponents.fragmentKtx
     implementation rootProject.ext.architectureComponents.viewmodelKtx
     implementation rootProject.ext.architectureComponents.livedataKtx

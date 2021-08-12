@@ -21,8 +21,8 @@ ext {
             "navigationUi"              : "androidx.navigation:navigation-ui-ktx:2.4.0-alpha01",
             "navigationFragment"        : "androidx.navigation:navigation-fragment-ktx:2.4.0-alpha01",
             "collectionKtx"             : "androidx.collection:collection-ktx:1.1.0",
+            "lifecycleKtx"              : "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0-alpha03",
             "fragmentKtx"               : "androidx.fragment:fragment-ktx:1.4.0-alpha01",
-            "lifecycleKtx"              : "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
             "roomKtx"                   : "androidx.room:room-ktx:2.3.0",
             "roomCompiler"              : "androidx.room:room-compiler:2.3.0",
     ]
