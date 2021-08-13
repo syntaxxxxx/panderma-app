@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
@@ -13,14 +14,11 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/fragment_account.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/fragment_donor.xml" value="0.12917933130699089" />
-        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_homepage.xml" value="0.2515625" />
         <entry key="app/src/main/res/layout/fragment_list_donor.xml" value="0.11614583333333334" />
-        <entry key="app/src/main/res/layout/fragment_no_internet.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_post.xml" value="0.265625" />
-        <entry key="app/src/main/res/layout/fragment_post_donor.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/fragment_post_donor.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_post_tawarkan_donor.xml" value="0.11614583333333334" />
-        <entry key="app/src/main/res/layout/fragment_profil_edit.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.12917933130699089" />
@@ -37,7 +35,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.22" />
+        <option name="scale" value="0.2" />
       </ProjectState>
     </option>
   </component>

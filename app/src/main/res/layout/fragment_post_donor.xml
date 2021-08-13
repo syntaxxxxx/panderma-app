@@ -79,7 +79,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/nol"/>
+                    android:text="@string/nol"
+                    android:layout_marginTop="20dp"/>
 
                 <Button
                     android:id="@+id/btnMinus"
@@ -120,6 +121,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
                     android:text="@string/nol"/>
 
                 <Button
