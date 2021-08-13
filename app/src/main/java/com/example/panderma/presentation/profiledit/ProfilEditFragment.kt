@@ -1,4 +1,4 @@
-package com.example.panderma.presentation.signin
+package com.example.panderma.presentation.profiledit
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,15 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.panderma.R
 
-
-class SignInFragment : Fragment() {
+class ProfilEditFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_sign_in, container, false)
+        return inflater.inflate(R.layout.fragment_profil_edit, container, false)
     }
-
 }
