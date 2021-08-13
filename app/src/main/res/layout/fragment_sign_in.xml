@@ -69,6 +69,7 @@
                 android:textSize="16sp"/>
 
             <TextView
+                android:id="@+id/textDaftarSignIn"
                 android:text="@string/daftar"
                 android:layout_marginTop="12dp"
                 android:layout_width="match_parent"
