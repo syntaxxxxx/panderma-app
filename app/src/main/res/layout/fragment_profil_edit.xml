@@ -74,7 +74,7 @@
                 android:textColor="#FA7979"/>
 
             <EditText
-                android:id="@+id/edtNomorTeleponEditProfil"
+                android:id="@+id/nomor_telepon_edit_profil_edittext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
