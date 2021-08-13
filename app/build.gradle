@@ -62,4 +62,5 @@ dependencies {
     implementation rootProject.ext.misc.koinAndroidScope
     implementation rootProject.ext.misc.koinAndroidViewModel
     implementation rootProject.ext.misc.koinAndroidFragment
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
