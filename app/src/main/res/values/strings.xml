@@ -14,6 +14,7 @@
     <string name="pilih_lokasi">Pilih Lokasi</string>
     <string name="deskripsi">Deskripsi</string>
     <string name="post">Post</string>
+    <string name="your_name">Your Name</string>
     <string name="email">Email</string>
     <string name="kata_sandi">Kata Sandi</string>
     <string name="masuk">Masuk</string>
@@ -30,7 +31,13 @@
     <string name="tanggal_lahir">Tanggal Lahir</string>
     <string name="laki_laki">Laki-laki</string>
     <string name="simpan">Simpan</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="your_birthdate">Your Birthdate</string>
     <string name="batalkan">Batalkan</string>
+    <string name="ubah">Ubah</string>
+    <string name="cari">Cari . . . . </string>
+    <string name="kembali">Kembali</string>
     <string name="ganti_foto_profil">Ganti Foto Profil</string>
     <string name="tidak_ada_internet">Tidak Ada Koneksi Internet</string>
     <string name="message_lupa_password">pengaturan ulang kata sandi telah dikirim ke email anda</string>

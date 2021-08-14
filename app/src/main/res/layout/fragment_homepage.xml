@@ -5,11 +5,28 @@
     android:layout_height="match_parent"
     tools:context=".homepage.HomepageFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/homepageFragment"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Homepage" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/homepage_search_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cari"
+            android:layout_marginTop="23dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <ImageView
+            android:id="@+id/homepage_banner_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="25dp"
+            android:background="#E1DFDF"/>
+
+    </LinearLayout>
+
 
 </FrameLayout>
