@@ -16,7 +16,7 @@
         <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_homepage.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_list_donor.xml" value="0.11614583333333334" />
+        <entry key="app/src/main/res/layout/fragment_list_donor.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_no_internet.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_post.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/fragment_post_donor.xml" value="0.14" />
@@ -29,6 +29,7 @@
         <entry key="app/src/main/res/layout/item_home_calon_pendonor.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/item_home_category.xml" value="0.11302083333333333" />
         <entry key="app/src/main/res/layout/item_home_donor_mendesak.xml" value="0.265625" />
+        <entry key="app/src/main/res/layout/item_list.xml" value="0.22" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.265625" />
       </map>
     </option>
@@ -42,7 +43,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.18" />
+        <option name="scale" value="0.22" />
       </ProjectState>
     </option>
   </component>
