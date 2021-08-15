@@ -27,6 +27,7 @@
         <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.12917933130699089" />
         <entry key="app/src/main/res/layout/item_category.xml" value="0.2441123188405797" />
         <entry key="app/src/main/res/layout/item_home_category.xml" value="0.11302083333333333" />
+        <entry key="app/src/main/res/layout/item_home_donor_mendesak.xml" value="0.265625" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.265625" />
       </map>
     </option>
