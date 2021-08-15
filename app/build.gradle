@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-kapt'
     id 'androidx.navigation.safeargs.kotlin'
 }
 
@@ -62,5 +63,4 @@ dependencies {
     implementation rootProject.ext.misc.koinAndroidScope
     implementation rootProject.ext.misc.koinAndroidViewModel
     implementation rootProject.ext.misc.koinAndroidFragment
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }

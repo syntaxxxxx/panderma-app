@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/account"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.panderma.presentation.profile.ProfileFragment"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_profilEditFragment"
+            app:destination="@id/profilEditFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profilEditFragment"
+        android:name="com.example.panderma.presentation.profiledit.ProfilEditFragment"
+        android:label="Ganti Profil"
+        tools:layout="@layout/fragment_profil_edit" />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.panderma.presentation.signup.SignUpFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_sign_up" />
+</navigation>

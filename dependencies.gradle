@@ -17,9 +17,9 @@ ext {
     architectureComponents = [
             "viewmodelKtx"              : "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1",
             "livedataKtx"               : "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1",
-            "navigatioRuntime"          : "androidx.navigation:navigation-runtime-ktx:2.4.0-alpha01",
-            "navigationUi"              : "androidx.navigation:navigation-ui-ktx:2.4.0-alpha01",
-            "navigationFragment"        : "androidx.navigation:navigation-fragment-ktx:2.4.0-alpha01",
+            "navigatioRuntime"          : "androidx.navigation:navigation-runtime-ktx:2.3.0-alpha01",
+            "navigationUi"              : "androidx.navigation:navigation-ui-ktx:2.3.0-alpha01",
+            "navigationFragment"        : "androidx.navigation:navigation-fragment-ktx:2.3.0-alpha01",
             "collectionKtx"             : "androidx.collection:collection-ktx:1.1.0",
             "fragmentKtx"               : "androidx.fragment:fragment-ktx:1.4.0-alpha01",
             "lifecycleKtx"              : "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1",
