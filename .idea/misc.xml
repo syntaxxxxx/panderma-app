@@ -14,7 +14,7 @@
         <entry key="app/src/main/res/layout/fragment_account.xml" value="0.265625" />
         <entry key="app/src/main/res/layout/fragment_donor.xml" value="0.12917933130699089" />
         <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.265625" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_homepage.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_list_donor.xml" value="0.11614583333333334" />
         <entry key="app/src/main/res/layout/fragment_no_internet.xml" value="0.1" />
@@ -26,6 +26,7 @@
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.12917933130699089" />
         <entry key="app/src/main/res/layout/item_category.xml" value="0.2441123188405797" />
+        <entry key="app/src/main/res/layout/item_home_category.xml" value="0.11302083333333333" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.265625" />
       </map>
     </option>
