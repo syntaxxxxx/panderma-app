@@ -1,75 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
-
-    <ImageView
-        android:id="@+id/image_donor_mendesak_textview"
-        android:layout_width="200dp"
-        android:layout_height="130dp"
-        android:src="@drawable/image_default_banner"/>
-
-    <TextView
-        android:id="@+id/judul_donor_mendesak_textview"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="@string/judul_post"
-        android:gravity="left"
-        android:textSize="16sp"
-        android:layout_marginStart="35dp"/>
-
-    <TextView
-        android:id="@+id/lokasi_donor_mendesak_textview"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="@string/judul_post"
-        android:gravity="left"
-        android:textSize="16sp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="10dp"
-        android:drawableLeft="@drawable/img_lokasi"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/image_donor_mendesak_textview"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:src="@drawable/image_default_banner"/>
 
         <TextView
-            android:id="@+id/pendonor_mendesak_textview"
-            android:layout_width="match_parent"
+            android:id="@+id/judul_donor_mendesak_textview"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="@string/satu"
+            android:text="@string/judul_post"
+            android:gravity="left"
+            android:textSize="16sp"
+            android:layout_marginStart="35dp"/>
+
+        <TextView
+            android:id="@+id/lokasi_donor_mendesak_textview"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_post"
+            android:gravity="left"
             android:textSize="16sp"
             android:layout_marginStart="35dp"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/img_lokasi"/>
 
-        <TextView
-            android:id="@+id/jumlah_pendonor_mendesak_textview"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/jumlah_butuh_donor"
-            android:layout_marginStart="10dp"
-            android:textSize="16sp"
-            android:layout_marginTop="10dp"/>
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/sisa_hari_donor_mendesak_textview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sisa_hari"
-            android:layout_marginStart="40dp"
-            android:textSize="16sp"
-            android:drawableLeft="@drawable/img_jam"
-            android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/pendonor_mendesak_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/satu"
+                android:textSize="16sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="10dp"/>
 
+            <TextView
+                android:id="@+id/jumlah_pendonor_mendesak_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/jumlah_butuh_donor"
+                android:layout_marginStart="10dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"/>
 
+            <TextView
+                android:id="@+id/sisa_hari_donor_mendesak_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sisa_hari"
+                android:layout_marginStart="40dp"
+                android:textSize="16sp"
+                android:drawableLeft="@drawable/img_jam"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
-
-
-
-
-</LinearLayout>
+</androidx.cardview.widget.CardView>
