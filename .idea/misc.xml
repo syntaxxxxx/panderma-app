@@ -29,7 +29,7 @@
         <entry key="app/src/main/res/layout/fragment_post_donor.xml" value="0.14" />
         <entry key="app/src/main/res/layout/fragment_post_tawarkan_donor.xml" value="0.11614583333333334" />
         <entry key="app/src/main/res/layout/fragment_profil_edit.xml" value="0.22" />
-        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.18" />
         <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.2" />
         <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.12917933130699089" />
         <entry key="app/src/main/res/layout/item_category.xml" value="0.2441123188405797" />
@@ -56,7 +56,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.16" />
+        <option name="scale" value="0.18" />
       </ProjectState>
     </option>
   </component>
