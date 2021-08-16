@@ -13,7 +13,7 @@ import com.example.panderma.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var navController: NavController
+  private lateinit var navController: NavController
     private lateinit var appBarConfiguration: AppBarConfiguration
 
     private lateinit var binding: ActivityMainBinding
@@ -39,9 +39,5 @@ class MainActivity : AppCompatActivity() {
     private fun setupBottomNavMenu(navController: NavController) {
         val bottomNav = binding.bottomNavView
         bottomNav.setupWithNavController(navController)
-    }
-
-    override fun onSupportNavigateUp(): Boolean {
-        return findNavController(R.id.nav_host_fragment).navigateUp(appBarConfiguration)
-    }
+}
 }
