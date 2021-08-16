@@ -1,6 +1,5 @@
 package com.example.panderma.core.domain
 
-import com.example.panderma.core.data.api.ResponseTest
 import com.example.panderma.core.entity.*
 import kotlinx.coroutines.flow.Flow
 
