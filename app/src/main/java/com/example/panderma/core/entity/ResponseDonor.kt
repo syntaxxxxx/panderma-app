@@ -26,7 +26,7 @@ data class Donor(
 	val perPage: Int? = null,
 
 	@Json(name="data")
-	val data: List<DataItem?>? = null,
+	val data: List<DataItem>? = null,
 
 	@Json(name="next_page_url")
 	val nextPageUrl: Any? = null,

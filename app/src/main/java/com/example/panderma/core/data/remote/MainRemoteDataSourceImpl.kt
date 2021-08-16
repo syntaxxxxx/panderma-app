@@ -1,9 +1,11 @@
 package com.example.panderma.core.data.remote
 
 import com.example.panderma.core.data.api.ApiService
+import com.example.panderma.core.data.api.ResponseTest
 import com.example.panderma.core.entity.ResponseBanner
 import com.example.panderma.core.entity.ResponseCategory
 import com.example.panderma.core.entity.ResponseDonor
+import com.example.panderma.core.entity.ResponseDonorDetails
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -23,6 +25,11 @@ class MainRemoteDataSourceImpl(private val apiService: ApiService) {
 
     val donor: Flow<ResponseDonor> = flow {
         val donor = apiService.getDonor()
+        emit(donor)
+    }.flowOn(Dispatchers.IO)
+
+    fun donorDetailsBy(donorId: Byte): Flow<ResponseDonorDetails> = flow {
+        val donor = apiService.getDonorDetailsBy(donorId)
         emit(donor)
     }.flowOn(Dispatchers.IO)
 
