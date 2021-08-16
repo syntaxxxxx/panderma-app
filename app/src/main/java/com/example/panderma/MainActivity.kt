@@ -2,39 +2,46 @@ package com.example.panderma
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
-import com.example.panderma.account.AccountFragment
-import com.example.panderma.homepage.HomepageFragment
-import com.example.panderma.post.PostFragment
-
+import androidx.navigation.NavController
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.navigateUp
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import com.example.panderma.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var navController: NavController
+    private lateinit var appBarConfiguration: AppBarConfiguration
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        val homepageFragment=HomepageFragment()
-        val postFragment=PostFragment()
-        val accountFragment=AccountFragment()
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        navController = navHostFragment.navController
 
-        setCurrentFragment(homepageFragment)
+        appBarConfiguration = AppBarConfiguration(
+            setOf(R.id.home, R.id.post, R.id.account)
+        )
 
-        bottomNavigationView.setOnNavigationItemSelectedListener {
-            when(it.itemId){
-                R.id.homepage->setCurrentFragment(homepageFragment)
-                R.id.post->setCurrentFragment(postFragment)
-                R.id.account->setCurrentFragment(accountFragment)
-
-            }
-            true
-        }
-
+        setSupportActionBar(binding.toolbar)
+        setupActionBarWithNavController(navController, appBarConfiguration)
+        setupBottomNavMenu(navController)
     }
 
-    private fun setCurrentFragment(fragment:Fragment)=
-        supportFragmentManager.beginTransaction().apply {
-            replace(R.id.flFragment,fragment)
-            commit()
-        }
+    private fun setupBottomNavMenu(navController: NavController) {
+        val bottomNav = binding.bottomNavView
+        bottomNav.setupWithNavController(navController)
+    }
 
+    override fun onSupportNavigateUp(): Boolean {
+        return findNavController(R.id.nav_host_fragment).navigateUp(appBarConfiguration)
+    }
 }
