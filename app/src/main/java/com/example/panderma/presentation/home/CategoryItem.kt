@@ -23,6 +23,7 @@ class CategoryItem(private val category: Category): AbstractBindingItem<Category
         binding.run {
 //            titleTextView.text = category.
             categoryImageView.loadImage(category.icon!!)
+//            kategory_textview.
         }
     }
 }

@@ -1,7 +1,6 @@
 package com.example.panderma.core.data.remote
 
 import com.example.panderma.core.data.api.ApiService
-import com.example.panderma.core.data.api.ResponseTest
 import com.example.panderma.core.entity.ResponseBanner
 import com.example.panderma.core.entity.ResponseCategory
 import com.example.panderma.core.entity.ResponseDonor
